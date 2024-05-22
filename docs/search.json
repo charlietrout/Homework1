@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "data_science.html",
+    "href": "data_science.html",
+    "title": "",
+    "section": "",
+    "text": "Part 1\nWhat do you think being a data scientist is about?\n            - It is about extracting insights and knowledge from data to drive and influence decision-making within a company.\nWhat differences/similarities do you see between data scientists and statisticians?\n\nStatisticians brings data to models while data scientists bring models to data\nStatisticians work with datasets relatively small in size and clean in text file formats while data scientists work with messy and large amounts of data in various formats\n\nHow do you view yourself in relation to these two areas?\nI used to view myself as a statistician as I started out as a statistics major during my undergrad. I then got more of a passion for coding languages like Python and R later into my undergrad and discovered the true power of pairing computer science with statisitics. I also enjoy the data cleaning process unfortunately and also like to work with big data since I think there is more potential with bigger sets of data.\nPart 2\nWe calculate the density estimation of the Sepal Length variable here from the iris dataset and store it in the object ‘y’.\ny &lt;- density(iris$Sepal.Length)\nWe determine the class, type and strutcture of the object ‘y’ using the ‘class’, ‘typeof’, and ‘str’ functions\nclass(y)\ntypeof(y)\nstr(y)\nWe use the plot function here to visualize the density estimation of the Sepal Length variable that is stored in ‘y’. We also set echo to false to hide the R code in the final document.\nplot(y, main = “Density Plot of Sepal Length”, xlab = “Sepal Length”, ylab = “Density”)"
+  }
+]
