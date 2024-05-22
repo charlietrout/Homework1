@@ -1,0 +1,44 @@
+Part 1
+
+What do you think being a data scientist is about?
+
+                - It is about extracting insights and knowledge from data to drive and influence decision-making within a company.
+
+ 
+
+What differences/similarities do you see between data scientists and statisticians?
+
+1. Statisticians brings data to models while data scientists bring models to data
+
+2. Statisticians work with datasets relatively small in size and clean in text file formats while data scientists work with messy and large amounts of data in various formats
+
+ 
+How do you view yourself in relation to these two areas?
+
+I used to view myself as a statistician as I started out as a statistics major during my undergrad. I then got more of a passion for coding languages like Python and R later into my undergrad and discovered the true power of pairing computer science with statisitics. I also enjoy the data cleaning process unfortunately and also like to work with big data since I think there is more potential with bigger sets of data.
+
+ 
+
+Part 2
+
+We calculate the density estimation of the Sepal Length variable here from the iris dataset and store it in the object 'y'.
+
+y <- density(iris$Sepal.Length)
+
+ 
+
+We determine the class, type and strutcture of the object 'y' using the 'class', 'typeof', and 'str' functions
+
+class(y)
+
+typeof(y)
+
+str(y)
+
+ 
+
+We use the plot function here to visualize the density estimation of the Sepal Length variable that is stored in 'y'. We also set echo to false to hide the R code in the final document.
+
+```{r, echo=FALSE}
+
+plot(y, main = "Density Plot of Sepal Length", xlab = "Sepal Length", ylab = "Density")
